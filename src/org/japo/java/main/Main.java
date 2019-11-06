@@ -40,7 +40,7 @@ public class Main {
                 System.out.print("Insertar vocal ...: ");
                 vocal = SCN.nextLine().charAt(0);
 
-                if (vocal == 'a' || vocal == 'e' || vocal == 'i' || vocal == 'o' || vocal == 'u') {
+                if (vocal == 'A' || vocal == 'E' || vocal == 'I' || vocal == 'O' || vocal == 'U') {
                     System.out.printf("Vocal seleccionada ...:  %C%n", vocal);
                     error = false;
 
